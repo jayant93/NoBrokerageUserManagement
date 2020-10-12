@@ -2,8 +2,11 @@ package com.noBrokerage.UserManagement.Service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
+import java.util.ArrayList;
+import java.util.List;
+import com.noBrokerage.UserManagement.Entity.UserAddress;
 import com.noBrokerage.UserManagement.Entity.UserDetails;
+import com.noBrokerage.UserManagement.Entity.UserRoles;
 import com.noBrokerage.UserManagement.Repository.UserDetailsRepository;
 
 @Service
